@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    font-family: "barlow", sans-serif;
+}
+
+:root {
+    --text-color: #333333;
+    --footer-color: #1c1c1c;
+    --orange-color: #c76300;
+    --devjob-color: #ba68c8;
+    --white-color: #ffffff;
+    --black-color: #1c1c1c;
+    --shadow-color: rgba(0,0,0,0.2);
+}
+
+/* Desktop */
+@media (min-width: 800px) {
+    .container img {
+    width: 100%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+    .container img {
+        width: 100%;
+    }
+}

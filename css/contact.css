@@ -1,0 +1,43 @@
+/* Desktop */
+@media (min-width: 800px) {
+    .contact {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact h1 {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .contactformulier, .contactgegevens {
+        height: 550px;
+        width: 600px;
+        box-shadow: 0 8px 16px 0 var(--shadow-color);
+        margin: 100px;
+    }
+
+    .contactformulier input, textarea {
+        width: 90%;
+        height: 60px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 15px;
+    }
+
+    .contactformulier #submit {
+        border: 2px solid var(--orange-color);
+        background: var(--white-color);
+        color: var(--orange-color);
+    }
+
+    .contactformulier #submit:hover {
+        background: var(--orange-color);
+        color: var(--white-color);
+    }
+
+    .contactgegevens p {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,28 @@
+/* Desktop */
+@media (min-width: 800px) {
+    h1 {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .profile-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile1, .profile2, .profile3 {
+        height: 500px;
+        width: 400px;
+        margin: 100px;
+        box-shadow: 0 8px 16px 0 var(--shadow-color);
+        text-align: center;
+    }
+
+    img {
+        height: 400px;
+    }
+
+    h4, p {
+        padding-top: 20px;
+    }
+}

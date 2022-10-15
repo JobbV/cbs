@@ -1,0 +1,38 @@
+/* Desktop */
+@media (min-width: 800px) {
+    .footer {
+        background: var(--footer-color);
+    }
+
+    .footer p {
+        text-align: center;
+        color: var(--white-color);
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .footer a {
+        color: var(--devjob-color);
+        text-decoration: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+    .footer {
+        background: var(--footer-color);
+        font-size: 15px;
+    }
+
+    .footer p {
+        text-align: center;
+        color: var(--white-color);
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .footer a {
+        color: var(--devjob-color);
+        text-decoration: none;
+    }
+}
